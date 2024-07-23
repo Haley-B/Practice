@@ -1,21 +1,47 @@
 body {
     font-family: Arial, sans-serif;
-    text-align: center;
-    margin-top: 50px;
+    /* text-align: center; */
+    /* margin-top: 50px; */
+    margin: 0;
+    padding: 0;
     background-color: lightsteelblue;
-    color:rgb(8, 11, 5)
 }
 
-h1 {
-    color: hsl(258, 41%, 32%);
-    font-family:'Franklin Gothic Medium', serif;
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
 }
 
-p {
-    color: #4d132e82;
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background-color: #444;
 }
 
-h2 {
-    color: #505b08;
-    font-family:'Franklin Gothic Medium', sans-serif;
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
 }
