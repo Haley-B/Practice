@@ -132,8 +132,8 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: hsl(0, 43%, 1%); /* Optional: Fallback color */
-		background-image: url(/images/pexels-joshimer-binas-1769396-5463226.jpg);
+		background-color: hsl(0, 0%, 0%); /* Optional: Fallback color */
+		background-image: url(../../images/back.jpg);
 		background-size: cover; /* Ensure the image covers the entire background */
 		background-position: center; /* Center the background image */
 		background-repeat: no-repeat; /* Ensure the image does not repeat */
