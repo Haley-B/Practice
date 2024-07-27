@@ -29,9 +29,42 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+
 body {
-	line-height: 1;
-}
+	font-family: Arial, sans-serif;
+	}
+	
+	.social-media-section {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 20px 0;
+	}
+	
+	.social-media-button {
+		text-align: center;
+		margin: 0 20px;
+	}
+	
+	.social-media-button img {
+		width: 80px;  /* Adjust the width as desired */
+		height: 80px;  /* Adjust the height as desired */
+		margin-bottom: 10px;
+		transition: transform 0.2s;
+	}
+	
+	.social-media-button img:hover {
+		transform: scale(1.1);
+	}
+	
+	header.major {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+
+
+
 
 ol, ul {
 	list-style: none;
@@ -99,8 +132,8 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #3a5e4a; /* Optional: Fallback color */
-		background-image: url(/images/new-background.jpg);
+		background-color: hsl(0, 43%, 1%); /* Optional: Fallback color */
+		background-image: url(/images/pexels-joshimer-binas-1769396-5463226.jpg);
 		background-size: cover; /* Ensure the image covers the entire background */
 		background-position: center; /* Center the background image */
 		background-repeat: no-repeat; /* Ensure the image does not repeat */
@@ -122,7 +155,7 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #253d29;
+		background-color: #0e050e;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -2706,6 +2739,66 @@ input, select, textarea {
 	header.major h2:after {
 		background-color: rgba(255, 255, 255, 0.35);
 	}
+/* for gif */
+.main.special .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Ensure proper wrapping on smaller screens */
+}
+
+.left-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;  /* Center the GIF horizontally */
+    align-items: center;  /* Center the GIF vertically */
+}
+
+.paper-gif {
+    max-width: 100%;
+    max-height: 300px; /* Adjust this value as needed */
+    height: auto;
+    width: auto;
+    display: block;
+}
+
+.right-link {
+    flex: 1;
+    margin-left: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;  /* Center the text box horizontally */
+    align-items: center;  /* Center the text box vertically */
+}
+
+.description {
+	max-width: 100%;
+    padding: 20px;
+    background-color: #fff; /* Solid fill */
+    border: 1px solid #ddd;
+    border-radius: 10px; /* Rounded edges */
+    text-align: left;
+    display: flex;
+    flex-direction: column; /* Ensure children are stacked vertically */
+    align-items: center; /* Center children horizontally */
+}
+/* gba(210, 85, 208, 0.55)*/
+.right-link a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #a74aad; /* Green background */
+    color: white; /* White text */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.right-link a:hover {
+    background-color: #3c317a; /* Darker green on hover */
+    text-decoration: underline;
+}
+
 
 /* Table */
 
@@ -3678,7 +3771,9 @@ input, select, textarea {
 
 		}
 
-/* Footer */
+		/* Socials */
+	
+		/* Footer */
 
 	#footer {
 		display: -moz-flex;
@@ -3782,3 +3877,10 @@ input, select, textarea {
 			}
 
 		}
+	/* Targeting the p inside #header with class .alt within #wrapper */
+	#wrapper #header.alt p {
+    background-color: rgba(210, 85, 208, 0.55); /* Yellow highlight with 50% opacity */
+    padding: 0.1em 0.2em; /* Add padding to create a highlighted effect */
+    display: inline-block; /* Ensure the highlight only covers the text */
+    border-radius: 5px; /* Optional: rounded corners */
+}
