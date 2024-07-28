@@ -133,7 +133,7 @@ input, select, textarea {
 
 	body {
 		background-color: hsl(0, 0%, 0%); /* Optional: Fallback color */
-		background-image: url(images/back.jpg);
+		background-image: url(cssimages/back.jpg);
 		background-size: cover; /* Ensure the image covers the entire background */
 		background-position: center; /* Center the background image */
 		background-repeat: no-repeat; /* Ensure the image does not repeat */
