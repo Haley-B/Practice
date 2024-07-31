@@ -44,6 +44,7 @@ body {
 	.social-media-button {
 		text-align: center;
 		margin: 0 20px;
+		text-decoration: none;
 	}
 	
 	.social-media-button img {
@@ -51,10 +52,12 @@ body {
 		height: 80px;  /* Adjust the height as desired */
 		margin-bottom: 10px;
 		transition: transform 0.2s;
+		text-decoration: none;
 	}
 	
 	.social-media-button img:hover {
 		transform: scale(1.1);
+		text-decoration: none;
 	}
 	
 	header.major {
